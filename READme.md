@@ -19,7 +19,6 @@ Script				Purpose
 molecular_analyzer_app.py	Same as Script 03, but import-safe for use as module
 04_run_gui.py			Runs actual GUI using the data model
 chembl_data_tidy.csv		Sample data from the ChEMBL databank with Lipinski-rule columns
-molecule_analyzer_app.exe	Executable GUI for non-tech savy people
 
 ## 01_data_download.py
 - Uses ChEMBL’s API and pandas to download molecule data.
@@ -57,8 +56,5 @@ Future datasets should include following columns:
 'alogp, full_mwt, Rule_mwt, Rule_alogp, Rule_hba, Rule_hbd, is_drug'.
 Each rule column is a boolean (True/False) indicating whether a molecule passes the respective Lipinski rule.
 
-## molecule_analyzer_app.exe
-- Enables running the GUI without needing to install Python (Windows only)
-- Built using PyInstaller for convenience
 
 
